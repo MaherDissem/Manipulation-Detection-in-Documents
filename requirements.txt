@@ -1,0 +1,12 @@
+# sudo apt update
+# sudo apt install tesseract-ocr libtesseract-dev 
+# sudo apt install ibgtk2.0-dev pkg-config libgl1 # opencv dependencies
+# sudo apt install libpoppler-dev poppler-utils # pdf2image dependency
+
+pytesseract==0.3.10
+opencv-python==4.7.0.68
+opencv-python-headless==4.6.0.66
+numpy==1.23.5
+scikit-learn==1.2.1
+pdf2image==1.16.2
+xgboost==1.7.3
